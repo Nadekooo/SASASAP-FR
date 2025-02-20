@@ -2011,6 +2011,11 @@
         " (Return to title screen)": " (Zurück zum Titelbildschirm)",
         "Memories": "Erinnerungen",
         " ...I'm tired.": " ...ich bin müde.",
-        " No": " NEIN"
+        " No": " NEIN",
+        "Status": "Status",
+        "Yes": "Ja",
+        "Options": "Optionen",
+        "No": "Nein",
+        "Cancel": "Abbrechen"
     }
 }
