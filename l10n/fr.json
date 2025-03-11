@@ -335,7 +335,7 @@
         "(You decide to call out to her.)": "(Tu décides de l'appeler.)",
         "(You decide to...)": "(Tu décides de...)",
         "(......)": "(......)",
-        "\\m[wait](You\\!\\ decide\\!\\ to\\!\\ stop\\!\\ thinking.)": "\\m[wait](Tu\\!\\ décides\\!\\ d'arrêter\\!\\ de\\!\\ réfléchir.)",
+        "\\m[wait](You\\!\\ decide\\!\\ to\\!\\ stop\\!\\ thinking.)": "\\m[wait](Tu\\!\\ décides\\!\\ d'arrêter\\!\\ de\\!\\ penser.)",
         "\\m[vteach]...Siffrin?\\!\\ Something wrong?": "\\m[vteach]...Siffrin?\\!\\ Quelque-chose ne va pas?",
         "Do I have something on my face?\\!\\ <br>You're looking at me like I have something TERRIBLE on my face.": "",
         "\\m[vbrawl]You look as nice as always!!!": "",
