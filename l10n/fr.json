@@ -355,7 +355,7 @@
         "(You found three CRAFTED WATERS.)": "",
         "\\m[clear](Nothing left.)": "\\m[clear](Rien d'autre.)",
         "\\m[clear](A child's drawing.)": "\\m[clear](Un dessin d'enfant.)",
-        "\\m[vbrawl]Ready to go?": "\\m[vbrawl]Prêt à partir?",
+        "\\m[vbrawl]Ready to go?": "\\m[vbrawl]Prêts à partir ?",
         "\\m[vbrawl]Alright!\\!\\ Let's go!!!": "\\m[vbrawl]Okay!\\!\\ Allons-y!!!",
         "\\lsoff\\m[clear]\\lspi[100]\\lspiv[0]\\lson\\}--frin?": "\\lsoff\\m[clear]\\lspi[100]\\lspiv[0]\\lson\\}--frin?",
         "\\lspi[100]Siffrin?": "\\lspi[100]Siffrin ?",
