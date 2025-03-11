@@ -347,7 +347,7 @@
         "\\m[clear](You give her the book.)": "\\m[clear](Tu lui donnes le livre.)",
         "\\m[vteach]...?": "\\m[vteach]...?",
         "(Yeah, you don't want to waste time.)": "(Ouais, tu ne veux pas perdre de temps.)",
-        "(You vaguely remember there's an important item somewhere inside...)": "",
+        "(You vaguely remember there's an important item somewhere inside...)": "(Tu te souviens vaguement qu'il y a un objet important quelque-part à l'intérieur...)",
         "\\m[vteach]Anything interesting in there?\\!\\ Otherwise, we should get going.": "",
         "(You decide to look at this closet next time.)": "(Tu décides de regarder le placard la prochaine fois.)",
         "\\m[clear](A closet full of random objects.)": "",
