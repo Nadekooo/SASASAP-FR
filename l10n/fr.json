@@ -319,7 +319,7 @@
         "\\m[clear](Flowers.)": "\\m[clear](Des fleurs.)",
         "\\m[clear](The flame flickers gently.)": "\\m[clear](La flamme scintille doucement.)",
         "(Got the BURNING TORCH.)": "(Tu as obtenu la TORCHE ARDENTE.)",
-        "\\m[vhouse]Hm?\\!\\ Are you having trouble seeing ahead, Siffrin?": "",
+        "\\m[vhouse]Hm?\\!\\ Are you having trouble seeing ahead, Siffrin?": "\\m[vhouse]Hm?\\!\\ Est-ce que tu a du mal à avancer, Siffrin ?",
         "...\\!I can take the lead, if you'd like...": "",
         "\\m[vteach]Ah...\\!\\ Are you perhaps thinking of using this to destroy the weird thread?": "",
         "Nothing to lose by trying it out...": "Rien à perdre en essayant...",
