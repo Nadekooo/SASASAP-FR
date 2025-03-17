@@ -528,7 +528,7 @@
         "(No, no, not now)\\|\\^": "(Non, non, pas maintenant)\\|\\^",
         "(You reach out\\^": "",
         "\\m[clear](It's the pile of plates you shouldn't look at for some reason you can't really remember.)": "\\m[clear](C'est la pile d'assiettes que tu ne devrais pas regarder pour une raison dont tu ne peux pas te souvenir.)",
-        "\\m[wait](You look at it.)": "",
+        "\\m[wait](You look at it.)": "\\m[wait](Tu la regardes.)",
         "\\m[vbrawl]SO TALL!!!": "",
         "\\m[vkid]WHY IS IT SO TALL???": "",
         "\\m[vhouse]Oh...!": "",
