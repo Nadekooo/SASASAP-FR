@@ -576,7 +576,7 @@
         "(You move the contents of the drawer around...\\!\\ until your fingers touch something freezing.)": "",
         "(So that's where it was...)": "",
         "(Got the SECOND CASTLE KEY.)": "",
-        "\\m[clear](You look inside the drawer and find the key immediately.)": "",
+        "\\m[clear](You look inside the drawer and find the key immediately.)": "\\m[clear](Tu regardes dans le tiroir et trouves la clé immédiatement.)",
         "\\m[clear](An empty drawer.)": "\\m[clear](Un tiroir vide.)",
         "\\m[vhouse]Oh!\\!\\ That's the pitcher one of my friends made!!!": "",
         "\\m[vteach]That's...\\!\\ a pitcher?": "",
