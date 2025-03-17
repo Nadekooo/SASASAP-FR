@@ -389,7 +389,7 @@
         "\\m[clear](You smile at them.)": "\\m[clear](Tu leur souris.)",
         "(\"Victory is just around the corner.\")": "(\"La victoire est à portée de main.\")",
         "(\"We've come this far with no trouble, so getting through this last floor and beating the King will surely be a piece of cake!\")": "(\"On a réussi à arriver jusqu'ici sans problème, donc traverser cet étage et battre le Roi sera forcément du gâteau !\")",
-        "\\|(You know better.)": "",
+        "\\|(You know better.)": "\\|(Ce n'est pas aussi simple.)",
         "[CONTROLS]\\!<br>Arrow keys : Move\\!<br>\nENTER or Z : Interact, Confirm\\!<br>\nESC or X or 0 : Cancel, Menu": "[CONTRÔLES]\\!<br>Flèches : Se déplacer\\!<br>\nZ ou ENTRÉE : Interagir avec quelque chose, Confirmer\\!<br>\nÉCHAP, X ou 0 : Annuler, ouvrir le Menu",
         "SHIFT while moving : Run\\!<br>\nYou can save at any time in the menu.": "SHIFT en marchant : Courir\\!<br>\nVous pouvez sauvegarder quand vous le voulez à partir du menu.",
         "\\m[vteach]Oh.\\!\\ Siffrin.": "\\m[vteach]Oh.\\!\\ Siffrin.",
