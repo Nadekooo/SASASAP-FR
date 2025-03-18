@@ -637,7 +637,7 @@
         "\\m[vkid]WHAT\\|\\^": "\\m[vkid]QUOI\\|\\^",
         "\\m[vhouse]EEK!!!\\|\\^": "\\m[vhouse]BEURK !!!\\|\\^",
         "\\m[vbrawl]\\{CRAB?!??!!???!???!???!": "\\m[vbrawl]\\{DU CRABE ?!??!!???!???!???!",
-        "\\m[vteach]Wh-\\.what's happening": "",
+        "\\m[vteach]Wh-\\.what's happening": "\\m[vteach]Qu-\\.que se passe-t'il",
         "\\m[vkid]SOMEONE WAS COOKING CRAB???": "",
         "\\m[vhouse]IN A HOUSE OF CHANGE OF ALL PLACES!!!!!!": "",
         "\\m[vbrawl]WHY WOULD SOMEONE DO THIS": "",
