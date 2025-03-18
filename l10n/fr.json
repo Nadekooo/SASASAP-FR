@@ -716,7 +716,7 @@
         "\\m[clear](Just books.)": "\\m[clear](Juste des livres.)",
         "\\m[clear](You find the religious book.)": "\\m[clear](Tu trouves le livre religieux.)",
         "(Pick it up anyway?)\\!\\": "(Le ramasser quand même ?)\\!\\",
-        "\\m[vbrawl]Oh, is it a book about the House of Change?": "",
+        "\\m[vbrawl]Oh, is it a book about the House of Change?": "\\m[vbrawl]Oh, est-ce que c'est un livre sur le Foyer du Changement ?",
         "\\m[vhouse]Yes!\\!\\ This is...": "",
         "\"The Life-Changing Magic of Changing Yourself!\"": "",
         "This one is a little abstract, but it is all about our beliefs and the Change God!": "",
