@@ -712,7 +712,7 @@
         "\\m[vkid]Is that a key?": "\\m[vkid]C'est une clé, ça ?",
         "\\m[vbrawl]Wow Sif, you're finding all kinds of weird stuff today!": "\\m[vbrawl]Ouah Sif, tu trouves pleins de trucs bizarres aujourd'hui !",
         "\\m[vhouse]Hm... What is this key for?": "\\m[vhouse]Hm... À quoi sert cette clé ?",
-        "(You leave the book alone.)": "",
+        "(You leave the book alone.)": "(Tu laisses le livre derrière.)",
         "\\m[clear](Just books.)": "\\m[clear](Juste des livres.)",
         "\\m[clear](You find the religious book.)": "\\m[clear](Tu trouves le livre religieux.)",
         "(Pick it up anyway?)\\!\\": "",
