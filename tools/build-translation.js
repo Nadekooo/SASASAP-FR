@@ -17,6 +17,14 @@ const flat = {
     custom: {},
 };
 
+const insertLine = (type, localeName, lineSrc, lineTarget) => {
+    if (!flat[type][lineSrc]) {
+        flat[type][lineSrc] = {};
+    }
+
+    flat[type][lineSrc][localeName] = lineTarget;
+}
+
 for (const locale of translations) {
     const translated = JSON.parse(String(readFileSync(`l10n/${locale}.json`)));
     const localeName = localeNames[locale];
@@ -25,11 +33,8 @@ for (const locale of translations) {
         for (const lineSrc in translated[type]) {
             const lineTarget = translated[type][lineSrc];
 
-            if (!flat[type][lineSrc]) {
-                flat[type][lineSrc] = {};
-            }
-
-            flat[type][lineSrc][localeName] = lineTarget;
+            insertLine(type, localeName, lineSrc, lineTarget);
+            // insertLine(type, localeName, "<WordWrap>" + lineSrc, "<WordWrap>" + lineTarget); // HACK: try to reconciliate the outdated source JSON. This does not work for every line.
         }
     }
 }
