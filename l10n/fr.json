@@ -954,7 +954,7 @@
         "Yes, you're right!\\!\\ I should follow your lead on this one!": "Oui, tu as raison !\\!\\ Je devrais suivre ton exemple pour le coup !",
         "We'd better get some sleep while we can!\\!\\ <br>Since tomorrow\\m[dot]": "Nous devrions nous reposer tant que nous en avons l'occasion ! <br>Puisque demain\\m[dot]",
         "We'll have to fight against the King!": "Nous devrons nous battre contre le Roi !",
-        "\\m[clear](\\m[dot])\\m[wait]": "",
+        "\\m[clear](\\m[dot])\\m[wait]": "\\m[clear](\\m[dot])\\m[wait]",
         "\\m[clear](You've seen this before.)": "",
         "(Listen to everyone again?)\\!\\": "",
         "(You daydream about the sun.)": "",
