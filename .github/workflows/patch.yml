@@ -1,0 +1,15 @@
+name: Build patch
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm i
+        working-directory: tools
+      - run: node tools/build-translation.js

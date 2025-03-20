@@ -34,7 +34,6 @@ for (const locale of translations) {
             const lineTarget = translated[type][lineSrc];
 
             insertLine(type, localeName, lineSrc, lineTarget);
-            // insertLine(type, localeName, "<WordWrap>" + lineSrc, "<WordWrap>" + lineTarget); // HACK: try to reconciliate the outdated source JSON. This does not work for every line.
         }
     }
 }

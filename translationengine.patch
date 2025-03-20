@@ -1,0 +1,11 @@
+1597c1597
+< 	var text = $.Game_Message_allText.apply(this, arguments);
+---
+> 	var lookupText = this._texts.map(t => t.startsWith('<WordWrap>') ? t.substring(10) : t).join('\n');
+1599,1600c1599,1601
+< 	if(data[text] && data[text][lang]) {
+< 		return data[text][lang];
+---
+>
+> 	if(data[lookupText] && data[lookupText][lang]) {
+> 		return data[lookupText][lang].split('<br>').map(t => '<WordWrap>' + t).join('\n');
