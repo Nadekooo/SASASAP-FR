@@ -957,7 +957,7 @@
         "\\m[clear](\\m[dot])\\m[wait]": "\\m[clear](\\m[dot])\\m[wait]",
         "\\m[clear](You've seen this before.)": "\\m[clear](Tu as déjà assisté à ça.)",
         "(Listen to everyone again?)\\!\\": "(Veux-tu écouter tout le monde à nouveau ?)\\!\\",
-        "(You daydream about the sun.)": "",
+        "(You daydream about the sun.)": "(Tu rêvasses du soleil.)",
         "(You've seen this before.)": "",
         "A Sadness...": "",
         "Hm, let's, um, uh--": "",
