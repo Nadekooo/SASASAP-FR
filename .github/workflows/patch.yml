@@ -15,7 +15,7 @@ jobs:
       - run: npm i
         working-directory: tools
       - run: node tools/build-translation.js
-      - run: mv Translation-target.json Translation.json
+      - run: mv Translations-target.json Translations.json
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automatic translation build
