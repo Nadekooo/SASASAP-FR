@@ -21,6 +21,7 @@ jobs:
           curl -Lo SRD_TranslationEngine.js ${{ secrets.TRANSLATION_ENGINE_JS }}
       - run: |
           patch plugins.js plugins.patch
+          dos2unix SRD_TranslationEngine.js
           patch SRD_TranslationEngine.js translationengine.patch
       - run: |
           mkdir -p js/plugins
