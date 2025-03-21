@@ -7,9 +7,17 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v3
       - run: npm i
         working-directory: tools
       - run: node tools/build-translation.js
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Automatic translation build
+          branch: release
+          commit_author: 'SASASAP Build Bot <sasasap.build.bot@vinceh121.me>'
+          create_branch: true
