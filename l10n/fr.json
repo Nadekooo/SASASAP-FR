@@ -1761,7 +1761,7 @@
         "\\m[vkid]Aaaaaaaah, your finger!!!": "\\m[vkid]Aaaaaaaah, ton doigt !!!",
         "\\m[vteach]Be more careful!": "\\m[vteach]Sois plus prudent !",
         "Here, give me your hand.": "Viens, donne-moi ta main.",
-        "\\m[clear](She gently takes your hand and wraps a bandage around your finger.)": "",
+        "\\m[clear](She gently takes your hand and wraps a bandage around your finger.)": "\\m[clear](Elle prend délicatement ta main et enroule un bandage autour de ton doigt.)",
         "(So nice, even though she tries to pretend she is not.)": "",
         "(Next to her, the kid carefully takes the glass shard from you...)": "",
         "(...and throws it across the room.)": "",
