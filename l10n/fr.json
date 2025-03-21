@@ -1740,7 +1740,7 @@
         "\\m[clear](You know what?\\m[wait] Yeah, you need it.)": "",
         "(You get the bottle out of your pocket and take a swig.)": "(Tu sors la bouteille de ta poche et prends une gorgée.)",
         "\\m[vbrawl]Woah, woah, woah...": "\\m[vbrawl]Wow, wow, wow...",
-        "\\m[vteach]...Is this the time?": "\\m[vteach]...Est-ce que c'est le moment ?",
+        "\\m[vteach]...Is this the time?": "\\m[vteach]... Est-ce vraiment le moment ?",
         "\\m[clear]\n(You offer her the half empty bottle.)": "\\m[clear]\n(Tu lui offres la bouteille à moitié vide.)",
         "Yeah, it's the time.": "Ouais, c'est le moment.",
         "\\m[vbrawl]WOAH, WOAH, WOAH,": "\\m[vbrawl]WOW, WOW, WOW,",
