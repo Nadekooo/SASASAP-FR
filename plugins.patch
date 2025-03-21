@@ -1,0 +1,4 @@
+100c100
+< {"name":"SRD_TranslationEngine","status":false,"description":"modified by master2015hp","parameters":{"Source Language Name":"English","Languages":"[\"French\",\"Japanese\"]","Default Language":"","Provide Option?":"true","Option Name":"Language","Allow Message Update?":"true"}}
+---
+> {"name":"SRD_TranslationEngine","status":true,"description":"modified by master2015hp","parameters":{"Source Language Name":"English","Languages":"[\"French\",\"Japanese\"]","Default Language":"French","Provide Option?":"true","Option Name":"Language","Allow Message Update?":"true"}}

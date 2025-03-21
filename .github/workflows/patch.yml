@@ -16,6 +16,19 @@ jobs:
         working-directory: tools
       - run: node tools/build-translation.js
       - run: mv Translations-target.json Translations.json
+      - run: |
+          curl -Lo plugins.js ${{ secrets.PLUGINS_JS_URL }}
+          curl -Lo SRD_TranslationEngine.js ${{ secrets.TRANSLATION_ENGINE_JS }}
+      - run: |
+          patch plugins.js plugins.patch
+          patch SRD_TranslationEngine.js translationengine.patch
+      - run: |
+          mkdir -p js/plugins
+          mkdir data
+          mv plugins.js js
+          mv SRD_TranslationEngine.js js/plugins
+          mv Translations.json data
+      - run: zip -r patch.zip js data
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automatic translation build
