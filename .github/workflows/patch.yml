@@ -37,3 +37,4 @@ jobs:
           branch: release
           commit_author: 'SASASAP Build Bot <sasasap.build.bot@vinceh121.me>'
           create_branch: true
+          push_options: '--force'
