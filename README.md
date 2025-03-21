@@ -15,5 +15,5 @@ SASASAP-FR est une initiative communautaire ouverte à tous, vous pouvez vous in
   - Gérer
   - Parcourir les fichiers locaux
 - Parcourir le dossier `www`
-- Extraire le ficher ZIP téléchargé dans ce dossier
+- Extraire le fichier ZIP téléchargé dans ce dossier
 - Démarrer SASASAP
