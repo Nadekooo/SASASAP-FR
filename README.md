@@ -9,12 +9,11 @@ SASASAP-FR est une initiative communautaire ouverte à tous, vous pouvez vous in
 
 ## Installation
 
-- Téléchargez [ce fichier](https://exemple.com)
+- Téléchargez [ce fichier ZIP](https://github.com/Nadekooo/SASASAP-FR/raw/refs/heads/release/patch.zip)
 - Ouvrez les fichiers de SASASAP
   - Dans steam, click droit sur le jeu
   - Gérer
   - Parcourir les fichiers locaux
 - Parcourir le dossier `www`
-- Parcourir le dossier `data`
-- Déplacer le fichier téléchargé dans ce dossier en écrasant
+- Extraire le ficher ZIP téléchargé dans ce dossier
 - Démarrer SASASAP
