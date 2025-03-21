@@ -6,6 +6,6 @@
 < 	if(data[text] && data[text][lang]) {
 < 		return data[text][lang];
 ---
->
+> 
 > 	if(data[lookupText] && data[lookupText][lang]) {
 > 		return data[lookupText][lang].split('<br>').map(t => '<WordWrap>' + t).join('\n');
