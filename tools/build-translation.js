@@ -31,7 +31,7 @@ for (const locale of translations) {
 
     for (const type of ["msg", "cmd", "terms", "custom"]) {
         for (const lineSrc in translated[type]) {
-            const lineTarget = translated[type][lineSrc];
+            const lineTarget = translated[type][lineSrc].replaceAll('<br>', '<line break>');
 
             insertLine(type, localeName, lineSrc, lineTarget);
         }
