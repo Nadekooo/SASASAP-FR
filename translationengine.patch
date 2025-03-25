@@ -1,8 +1,136 @@
-1597c1597
+494,517c494,503
+< $.translatableDatas = [
+< 	'$dataActors',
+< 	'$dataClasses',
+< 	'$dataSkills',
+< 	'$dataItems',
+< 	'$dataWeapons', 
+< 	'$dataArmors',
+< 	'$dataEnemies',
+< 	'$dataStates',
+< 	'$dataTilesets'
+< ];
+< 
+< $.loadNoteData = function() {
+< 	for(var i = 0; i < $.translatableDatas.length; i++) {
+< 		var dataObj = window[$.translatableDatas[i]];
+< 		for(var j = 1; j < dataObj.length; j++) {
+< 			var data = dataObj[j];
+< 			if(!data) continue;
+< 			var updateFields = $.parseNoteData(data);
+< 			if(updateFields) {
+< 				$.applyUpdateFields(data, updateFields);
+< 			}
+< 		}
+< 	}
+---
+> $.translatableDatas = {
+> 	'$dataActors': ['name', 'profile'],
+> 	'$dataClasses': ['name'],
+> 	'$dataSkills': ['name', 'description', 'message1', 'message2'],
+> 	'$dataItems': ['description', 'name'],
+> 	'$dataWeapons': ['description', 'name'], 
+> 	'$dataArmors': ['description', 'name'],
+> 	'$dataEnemies': ['name'],
+> 	'$dataStates': ['name', 'message1', 'message2', 'message3', 'message4'],
+> 	'$dataTilesets': []
+520,539c506,513
+< $.parseNoteData = function(data) {
+< 	var updateFields = null;
+< 	data.note.replace(/<(.*)[ ]Translation>((?:(?!<\/)[\s\S])*)<\/(.*)[ ]Translation>/gi, function(match, m1, m2, m3) {
+< 		if(m1 !== m3) return match;
+< 		if(data._tt_translations === undefined) data._tt_translations = {};
+< 		// console.log(m2);
+< 		var pairs = m2.split(/[\r\n]+/);
+< 		pairs.forEach(function(pair) {
+< 			pair.replace(/\[(.*)\]:\n*((?:(?!\\\[.*\])[\s\S])*)\s*/gi, function(match2, name, value) {
+< 					// console.log(match2);
+< 					// console.log(name);
+< 					// console.log(value);
+< 					if(name && value && typeof(data[name]) === 'string') {
+< 					if(value.indexOf('\n', value.length - 1) > 0) {
+< 						value = value.substring(0, value.length - 1);
+< 					}
+< 					if(data._tt_translations[m1] === undefined) data._tt_translations[m1] = {};
+< 					data._tt_translations[m1][name] = value;
+< 					if(updateFields === null) updateFields = [];
+< 					if(!updateFields.contains(name)) updateFields.push(name);
+---
+> $.loadNoteData = function() {
+> 	for (const tableName in $.translatableDatas) {
+> 		const table = window[tableName];
+> 		
+> 		for (const field of $.translatableDatas[tableName]) {
+> 			for (const item of table) {
+> 				if (!item) {
+> 					continue;
+541,562d514
+< 				return match2;
+< 			}.bind(this));
+< 		},this);
+< 		// m2.replace(/\[(.*)\]:\n*((?:(?!\\\[.*\])[\s\S])*)\s*/gi, function(match2, name, value) {
+< 			// console.log(match2);
+< 			// console.log(name);
+< 			// console.log(value);
+< 			// if(name && value && typeof(data[name]) === 'string') {
+< 				// if(value.indexOf('\n', value.length - 1) > 0) {
+< 					// value = value.substring(0, value.length - 1);
+< 				// }
+< 				// if(data._tt_translations[m1] === undefined) data._tt_translations[m1] = {};
+< 				// data._tt_translations[m1][name] = value;
+< 				// if(updateFields === null) updateFields = [];
+< 				// if(!updateFields.contains(name)) updateFields.push(name);
+< 			// }
+< 			// return match2;
+< 		// }.bind(this));
+< 		return match;
+< 	}.bind(this));
+< 	return updateFields;
+< };
+564,572c516,517
+< $.applyUpdateFields = function(data, updateFields) {
+< 	for(var i = 0; i < updateFields.length; i++) {
+< 		var field = updateFields[i];
+< 		var defaultField = data[field];
+< 		if(data._tt_translations) { // Can never be too safe. :P
+< 			$.defineDataField(data, field, defaultField);
+< 		}
+< 	}
+< };
+---
+> 				const lookupText = item[field];
+> 				const target = $dataTranslations['custom']?.[lookupText]?.[ConfigManager.getLanguage()];
+574,585c519,521
+< $.defineDataField = function(data, field, defaultField) {
+< 	Object.defineProperty(data, field, {
+< 		get: function() {
+< 			if(ConfigManager.isDefaultLanguage()) return defaultField;
+< 			var lang = ConfigManager.getLanguage();
+< 			var fields = data._tt_translations[lang];
+< 			if(!fields) return defaultField;
+< 			var result;
+< 			try {
+< 				result = data._tt_translations[lang][field];
+< 			} catch(e) {
+< 				result = defaultField || '';
+---
+> 				if (target) {
+> 					item[field] = target;
+> 				}
+587,591c523,524
+< 			return result;
+< 		},
+< 		set: function(value) {},
+< 		configurable: true
+< 	});
+---
+> 		}
+> 	}
+1597c1530
 < 	var text = $.Game_Message_allText.apply(this, arguments);
 ---
 > 	var lookupText = this._texts.map(t => t.startsWith('<WordWrap>') ? t.substring(10) : t).join('\n');
-1599,1600c1599,1601
+1599,1600c1532,1534
 < 	if(data[text] && data[text][lang]) {
 < 		return data[text][lang];
 ---
