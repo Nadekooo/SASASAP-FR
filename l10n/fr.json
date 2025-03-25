@@ -2305,7 +2305,7 @@
         "Orc": null,
         "THE KING'S TEARS": null,
         "THE KING": null,
-        "-----": null,
+        "-----": "-----",
         "FORLORN": null,
         "MOPE": null,
         "WOE": null,
@@ -2355,7 +2355,7 @@
         " is stunned!!!": null,
         " is slain!": null,
         "is frozen in time!": null,
-        " woke up!": null,
+        " woke up!": " s'est réveillé !",
         "'s time started flowing again!": null,
         " is vulnerable again!": null
     }
