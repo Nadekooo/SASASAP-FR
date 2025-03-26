@@ -1176,7 +1176,7 @@
         "(One more time,\\!\\ one more time...)": "",
         "(How badly are you messing up that this happened?)": "",
         "(Or...)": "",
-        "\\m[clear](Stars above, you've heard this before.)": "",
+        "\\m[clear](Stars above, you've heard this before.)": "\\m[clear](Par les Astres, tu as déjà assisté à ça.)",
         "(\"Thank you for...\")": "",
         "\\m[Vhouse]--everything, Siffrin! I really treasure--": "",
         "\\m[clear](\"...your friendship, I hope you also...\")": "",
