@@ -2478,6 +2478,11 @@
         "is frozen in time!": "is frozen in time!",
         " woke up!": " woke up!",
         "'s time started flowing again!": "'s time started flowing again!",
-        " is vulnerable again!": " is vulnerable again!"
+        " is vulnerable again!": " is vulnerable again!",
+        "All Allies": "All Allies",
+        "All Enemies": "All Enemies",
+        "CritChance": "CritChance",
+        "HP Regen": "HP Regen",
+        "ExpRate": "ExpRate"
     }
 }
