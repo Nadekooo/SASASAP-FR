@@ -30,7 +30,7 @@ jobs:
           mv plugins.js js
           mv SRD_TranslationEngine.js js/plugins
           mv Translations.json data
-      - run: zip -r patch.zip js data fonts
+      - run: zip -r patch.zip js data fonts images/completed/img
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automatic translation build
