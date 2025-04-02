@@ -30,8 +30,7 @@ jobs:
           mv plugins.js js
           mv SRD_TranslationEngine.js js/plugins
           mv Translations.json data
-          mv VCR_OSD_MONO_1.001.ttf fonts
-      - run: zip -r patch.zip js data
+      - run: zip -r patch.zip js data fonts
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automatic translation build
