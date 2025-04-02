@@ -30,7 +30,6 @@ jobs:
           mv plugins.js js
           mv SRD_TranslationEngine.js js/plugins
           mv Translations.json data
-          mkdir fonts
           mv VCR_OSD_MONO_1.001.ttf fonts
       - run: zip -r patch.zip js data
       - uses: stefanzweifel/git-auto-commit-action@v5
