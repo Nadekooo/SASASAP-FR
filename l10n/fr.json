@@ -2000,7 +2000,7 @@
         "\\m[clear](Something changed, finally, something changed!!!)": "\\m[clear](Quelque chose a changé, enfin, quelque chose a changé !!!)",
         "\\ShakeI'm afraid\\!\\ this is goodbye, young ones.": "\\ShakeJ'ai bien peur\\!\\ que c'est ici que nos chemins se séparent, jeunes gens.",
         "I remember when it happened.": "Je me souviens quand c'est arrivé.",
-        "Still, the island north of here...\\!<br>": "Pourtant, l'île au nord d'ici...\\!<br>"
+        "Still, the island north of here...\\!": "Pourtant, l'île au nord d'ici...\\!"
     },
     "cmd": {
         "Fight": "Se Battre",
