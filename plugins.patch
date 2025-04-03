@@ -10,6 +10,10 @@
 < {"name":"YEP_X_ItemCategories","status":true,"description":"v1.01 (Requires YEP_ItemCore.js) Assign items to various\ncategories under the item menu.","parameters":{"---General---":"","Category Order":"Items, HiddenItemA, KeyItems","---Naming---":"","Hidden Item A":"Knick-Knacks","Hidden Item B":"Unique Items","Consumable":"Consumable","Nonconsumable":"Nonconsumable","Always Usable":"Usable","Battle Usable":"Battle","Field Usable":"Field","Never Usable":"Misc"}},
 ---
 > {"name":"YEP_X_ItemCategories","status":true,"description":"v1.01 (Requires YEP_ItemCore.js) Assign items to various\ncategories under the item menu.","parameters":{"---General---":"","Category Order":"Items, HiddenItemA, KeyItems","---Naming---":"","Hidden Item A":"Babioles","Hidden Item B":"Unique Items","Consumable":"Consumable","Nonconsumable":"Nonconsumable","Always Usable":"Usable","Battle Usable":"Battle","Field Usable":"Field","Never Usable":"Misc"}},
+98c98
+< {"name":"YEP_ExternalLinks","status":true,"description":"v1.01 Link back to your home page through the title screen\nand also be able to link your players from within the game.","parameters":{"Home Page URL":"https://store.steampowered.com/app/1677310/In_Stars_And_Time/","Home Page Text":"Wishlist the next game","Popup Blocker Notice":"The link was blocked by a pop-up blocker. Go to www.instarsandtime.com !"}},
+---
+> {"name":"YEP_ExternalLinks","status":true,"description":"v1.01 Link back to your home page through the title screen\nand also be able to link your players from within the game.","parameters":{"Home Page URL":"https://store.steampowered.com/app/1677310/In_Stars_And_Time/","Home Page Text":"Voir le prochain jeu","Popup Blocker Notice":"Le lien a été bloqué par un blocker. Allez sur www.instarsandtime.com !"}},
 100c100
 < {"name":"SRD_TranslationEngine","status":false,"description":"modified by master2015hp","parameters":{"Source Language Name":"English","Languages":"[\"French\",\"Japanese\"]","Default Language":"","Provide Option?":"true","Option Name":"Language","Allow Message Update?":"true"}}
 ---
