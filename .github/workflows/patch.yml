@@ -20,13 +20,16 @@ jobs:
       - run: |
           curl -Lo plugins.js ${{ secrets.PLUGINS_JS_URL }}
           curl -Lo SRD_TranslationEngine.js ${{ secrets.TRANSLATION_ENGINE_JS }}
+          curl -Lo System.json ${{ secrets.SYSTEM_JSON }}
       - run: |
           patch plugins.js plugins.patch
           dos2unix SRD_TranslationEngine.js
           patch SRD_TranslationEngine.js translationengine.patch
+      - run : sed -i 's/Static Battle BG/Fonds Combat Statique/' System.json
       - run: |
           mkdir -p js/plugins
           mkdir data
+          mv System.json data
           mv plugins.js js
           mv SRD_TranslationEngine.js js/plugins
           mv Translations.json data
