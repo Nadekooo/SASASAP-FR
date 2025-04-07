@@ -1998,7 +1998,8 @@
         "\\m[vking]\\ShakeOoooh....Ooooooh....": "\\m[vking]\\ShakeOoooh....Ooooooh....",
         "\\ShakeI'm afraid\\!\\ this is goodbye, young ones.": "\\ShakeI'm afraid\\!\\ this is goodbye, young ones.",
         "\\m[clear]\\lspiv[0](The King is preparing his last move...\\!\\ and looking right at you.)": "\\m[clear]\\lspiv[0](The King is preparing his last move...\\!\\ and looking right at you.)",
-        "(You'll die with the next hit.)": "(You'll die with the next hit.)"
+        "(You'll die with the next hit.)": "(You'll die with the next hit.)",
+        "(The Fighter.\\!<br>\nThe Housemaiden.\\!<br>\nThe Researcher.\\!<br>\nThe Kid.)": "(The Fighter.\\!<br>\nThe Housemaiden.\\!<br>\nThe Researcher.\\!<br>\nThe Kid.)"
     },
     "cmd": {
         "Fight": "Fight",
