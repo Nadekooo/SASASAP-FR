@@ -2001,7 +2001,15 @@
         "\\ShakeI'm afraid\\!\\ this is goodbye, young ones.": "\\ShakeJ'ai bien peur\\!\\ que c'est ici que nos chemins se séparent, jeunes gens.",
         "I remember when it happened.": "Je me souviens quand c'est arrivé.",
         "Still, the island north of here...\\!": "Pourtant, l'île au nord d'ici...\\!",
-        "(The Fighter.\\!<br>\nThe Housemaiden.\\!<br>\nThe Researcher.\\!<br>\nThe Kid.)": "(Le Combattant.\\!<br>\nLa Domestique.\\!<br>\nLa Chercheuse.\\!<br>\nL'Enfant.)"
+        "(The Fighter.\\!<br>\nThe Housemaiden.\\!<br>\nThe Researcher.\\!<br>\nThe Kid.)": "(Le Combattant.\\!<br>\nLa Domestique.\\!<br>\nLa Chercheuse.\\!<br>\nL'Enfant.)",
+        "(Why is the King taking so long to kill you all?\\!\\ <br>\nWhy is he delaying the inevitable?)": "(Pourquoi est-ce que le Roi prend aussi longtemps pour tous vous tuer ?\\!\\ <br>\nPourquoi retarde-t-il l'inévitable ?)",
+        "(But\\!\\ they're your friends, aren't they...?\\!\\<br>\nAren't they?\\!\\<br>\n\\fs[31]\\shakeAren't they?!\\resetshake)": "(Mais\\!\\ ce sont tes amis, non...?\\!\\<br>\nNon ?\\!\\<br>\n\\fs[31]\\shakeNon ?!\\resetshake)",
+        "\\m[vteach]The King is charging up...\\!<br>\nSomething's coming!": "\\m[vteach]Le Roi se charge...\\!<br>\nIl prépare quelque chose !",
+        "\\ShakeI cannot allow you to win!!!\\!\\ <br>\nI can't!!!\\!\\ <br>\nI won't!!!!": "\\ShakeJe ne peux pas vous laisser gagner !!!\\!\\ <br>\nJe ne peux pas !!!\\!\\ <br>\nJe ne vous laisserai pas !!!!",
+        "\\ShakeYou poor, lost creatures...\\!\\<br>\nWhy won't you listen to me?\\!\\<br>\nI only want what is best for you!\\!\\<br>\nFor everyone!": "\\ShakeÔ pauvres créatures égarées...\\!\\<br>\nPourquoi ne m'écoutez-vous pas ?\\!\\<br>\nJe ne veux que votre plus grand bien !\\!\\<br>\nPour tout le monde !",
+        "YOU HURT SO MANY PEOPLE!!!\\!\\ <br>\nWHO WON'T START MOVING EVER AGAIN!!!": "T'AS FAIT DU MAL À TELLEMENT DE GENS !!!\\!\\ <br>\nQUI NE POURRONT PLUS JAMAIS BOUGER !!!",
+        "(He should just kill you!\\!\\ Get it over with!\\!\\ <br>\nYou don’t want to fight anymore!\\!\\ <br>\nYou don’t want to hope anymore!!!)": "(Il devrait juste vous tuer !\\!\\ Qu'il en finisse !\\!\\ <br>\nTu ne veux plus te battre !\\!\\ <br>\nTu ne veux plus espérer !!!)",
+        "\\lsoff\\m[wait]\\lspi[50]\\lsonStand up, Siffrin!!!\\!\\ The King is weakened...\\!<br>\nThis isn't over yet!!!": "\\lsoff\\m[wait]\\lspi[50]\\lsonRelève-toi, Siffrin !!!\\!\\ Le Roi est affaibli...\\!<br>\nRien n'est encore décidé !!!"
     },
     "cmd": {
         "Fight": "Se Battre",
@@ -2496,6 +2504,7 @@
         " woke up!": " s'est réveillé(e) !",
         "'s time started flowing again!": " a repris le court du temps !",
         " is vulnerable again!": " est de nouveau vulnérable !",
-        "All Enemies": "Tous les ennemis"
+        "All Enemies": "Tous les ennemis",
+        "Wack an enemy with the strength of your ROCK-hard fists!!!<br>\nDestroy all enemies with your super duper ROCK-hard fists!!!": "Cogne un ennemi avec ton poing dur comme la PIERRE !!!<br>\nRéduis tous les ennemis en poussière avec tes poings super méga durs comme la PIERRE !!!"
     }
 }
