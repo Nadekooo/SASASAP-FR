@@ -26,6 +26,7 @@ jobs:
           dos2unix SRD_TranslationEngine.js
           patch SRD_TranslationEngine.js translationengine.patch
       - run : sed -i 's/Static Battle BG/Fonds Combat Statiq./' System.json
+      - run : sed -i 's/"Weapon","Equipment","Accessory"/"Arme","Équipement","Accessoire"/' System.json
       - run: |
           mkdir -p js/plugins
           mkdir data
